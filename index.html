@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Goog fonts:-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Monoton&display=swap" rel="stylesheet">
     <!--Connect HTML with CSS-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <!--end-->
-    
+
     <title>Christmas Countdown Page</title>
 </head>
+
 <body>
-    <div class="bg-gradient"></div>
+
     <div class="container">
-        <div class="container">
-    <h1>How many days until Christmas 2021?</h1>
-    <h2>Use it to count the</h2>!   <h2>number of days until Christmas 2021</h2>!
-    <div id="CDT"></div>
-	<!-- google_ad_section_start(weight=ignore) -->    
-        <div style="width: 140px;"><span style="color: whitesmoke">
-         <b><div>
-              
-       
-        
-         
-         <div id="countdowncontainer2"></div>
-         <footer>
+
+        <h1>How many days until Christmas 2021?</h1>
+        <br>
+        <br>
+        <h2><strong>Use it to count the</h2>! <h2>number of days until Christmas 2021</strong></h2>!
+        <div id="CDP"></div>
+
+        <footer>
             <p>
-              Copyright(C) Your_project_name All rights reserved.
+                Copyright(C) Savostina A., 2021
             </p>
-          </footer>
-        </div>    
-         
-        </div>
-        </div>
+        </footer>
+    </div>
 
 
 
@@ -44,26 +38,40 @@
 
 
 
-<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="http://www.lmlblog.com/winter/templets/xq/js/snowy.js"></script>
-<style type="text/css">.snow-container{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;}</style>
-<div class="snow-container"></div>
-<script language="javascript">
-var obj=null;
-var As=document.getElementById('nav').getElementsByTagName('a');
-obj = As[0];
-for(i=1;i<As.length;i++){if(window.location.href.indexOf(As[i].href)>=0)
-obj=As[i];}
-obj.id='nav_current'
-</script>
-<script src="http://www.lmlblog.com/winter/templets/xq/js/snowy.js"></script>
+
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="http://www.lmlblog.com/winter/templets/xq/js/snowy.js"></script>
+    <style type="text/css">
+        .snow-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 100001;
+        }
+    </style>
+    <div class="snow-container"></div>
+    <script language="javascript">
+        var obj = null;
+        var As = document.getElementById('nav').getElementsByTagName('a');
+        obj = As[0];
+        for (i = 1; i < As.length; i++) {
+            if (window.location.href.indexOf(As[i].href) >= 0)
+                obj = As[i];
+        }
+        obj.id = 'nav_current'
+    </script>
+    <script src="http://www.lmlblog.com/winter/templets/xq/js/snowy.js"></script>
 
 
 
 
 
 
- <!--Connect JS file to HTML-->
-<script src="app.js"></script>
- </body>
+    <!--Connect JS file to HTML-->
+    <script src="app.js"></script>
+</body>
+
 </html>
