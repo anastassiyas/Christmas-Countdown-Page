@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Goog fonts:-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google fonts:-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Monoton&display=swap" rel="stylesheet">
     <!--Connect HTML with CSS-->
@@ -26,7 +27,36 @@
         <br>
         <strong>number of days until Christmas!</strong></h2>
         <div id="CDP"></div>
+        <div id="circularMenu" class="circular-menu">
 
+            <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+              <i class="fa fa-plus"></i>
+            </a>
+          
+            <menu class="items-wrapper">
+              <a href="#" class="menu-item fa fa-facebook"></a>
+              <a href="#" class="menu-item fa fa-twitter"></a>
+              <a href="#" class="menu-item fa fa-google-plus"></a>
+              <a href="#" class="menu-item fa fa-linkedin"></a>
+            </menu>
+          
+          </div>
+          
+          
+          <div id="circularMenu1" class="circular-menu circular-menu-left active">
+          
+            <a class="floating-btn" onclick="document.getElementById('circularMenu1').classList.toggle('active');">
+              <i class="fa fa-bars"></i>
+            </a>
+          
+            <menu class="items-wrapper">
+              <a href="#" class="menu-item fa fa-home"></a>
+              <a href="#" class="menu-item fa fa-user"></a>
+              <a href="#" class="menu-item fa fa-pie-chart"></a>
+              <a href="#" class="menu-item fa fa-cog"></a>
+            </menu>
+          
+          </div>
         <footer>
             <p>
                 Copyright(C) Savostina A., 2021
