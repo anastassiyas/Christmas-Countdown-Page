@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://media2.giphy.com/media/26tPrNaSLMaCBp5vy/giphy.gif?cid=ecf05e47q4u82wzpv9xq1g9wrn42voqwt9dbht6lfrp3og84&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+button {
+    font-size: 40px;
+    background-color: transparent;
+    border: 5px solid aqua;
+    color: black;
+    margin-left: 600px;
+    font-family: 'Romanesco', cursive;
+}
+ h2#btn {
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 300px;
+}
+h1,
+h2 {
+    
+    color: #eeee;
+    font-family: 'Romanesco', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    color: #eeee;
+    font-family: 'Romanesco', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-container {
+    
+    font-size: 24px;
+    margin: 25px;
+    width: 1020px;
+    height: 200px;
+    
+    /* Setup */
+    position: relative;
+  
+}
+.child, .child1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
