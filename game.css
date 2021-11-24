@@ -4,54 +4,26 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 button {
     font-size: 40px;
     background-color: transparent;
-    border: 5px solid aqua;
-    color: black;
-    margin-left: 600px;
+    border: 5px solid rgba(0, 255, 98, 0.747);
+    color: whitesmoke;
+    margin-top: 70px;
+    margin-left: 465px;
     font-family: 'Romanesco', cursive;
 }
- h2#btn {
-    color: black;
+h2#btn {
+    color: whitesmoke;
     font-size: 48px;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 h1,
 h2 {
-    
     color: #eeee;
     font-family: 'Romanesco', cursive;
     font-size: 40px;
     text-align: center;
 }
-
-p {
-    color: #eeee;
-    font-family: 'Romanesco', cursive;
-    font-size: 20px;
-    text-align: center;
-}
-
-.form-container {
-    
-    font-size: 24px;
-    margin: 25px;
-    width: 1020px;
-    height: 200px;
-    
-    /* Setup */
-    position: relative;
-  
-}
-.child, .child1 {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    /* Center vertically and horizontally */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
