@@ -13,9 +13,9 @@ The main purpose of this site is to create countdown timer counting down till ch
 
 **Goal:**
 
-To interest and instill a respectful attitude towards the culture of other countries. Respect and interest in other peoples.
-Target Audience:
-Curious people who want to gain new knowledge. People who like to organize their travels on their own. Travel agencies.
+The timer counts online the number of days, hours, minutes and seconds until the Сркшыеьфы.
+
+You can change the countdown for any important event for you by setting the desired date and time or by choosing from the presets.
 
 
 **Technologies to be used:**
